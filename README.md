@@ -11,8 +11,7 @@ Your support means a lot.
 - Please SUBSCRIBE to [tapaScript YouTube Channel](https://youtube.com/tapasadhikary) if not done already. A Big Thank You!
 - Liked my work? It takes months of hard work to create quality content and present it to you. You can show your support for me with a STAR(⭐) to this repository.
 
-    > Many Thanks to all the `Stargazers` who have supported this project with stars(⭐)
-    [![Stargazers repo roster for tapascript/full-stack-vibe-to-prod](https://reporoster.com/stars/tapascript/full-stack-vibe-to-prod)](https://github.com/atapas/tapascript/full-stack-vibe-to-prod)
+> Many Thanks to all the `Stargazers` who have supported this project with stars(⭐)
 
 ### 🤝 Sponsor My Work
 
@@ -26,7 +25,7 @@ You, all my `Stargazers`, are making it work. This is because of you. A BIG THAN
 
 ## 🥇 Join the Discord Server
 
-- Join Discord Server to Collaborate and Learn: [https://discord.gg/ux9BchWEW3](https://discord.gg/ux9BchWEW3)
+- Join Discord Server to Collaborate and Learn: [https://discord.com/invite/GGekdgvbKD](https://discord.com/invite/GGekdgvbKD)
 
 ## 📹 Table of Contents
 
