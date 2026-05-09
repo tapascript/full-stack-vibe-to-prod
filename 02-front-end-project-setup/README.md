@@ -2,13 +2,16 @@
 
 ## **🎯 Goal of This Lesson**
 
-- Front-end Tech Stack
-- What is Vite?
-- What is TailwindCSS?
-- What is TypeScript?
-- What is Tanstack Ecosystem?
-- What is Tanstack Router?
-- Task and How to Submit
+- The Front End Tech Stack
+- The React Setup with TypeScript and Vite
+- Install and Configure TailwindCSS 4.x With Vite
+- The Production-Ready Folder Structure for React App
+- Configure Tanstack Router
+- Setup the Routing
+- Initiatize Routing
+- File-Based Routing
+- Task Assignments
+- What’s in the Next Episode(Episode 03)?
 
 ## 🫶 Support
 
@@ -27,7 +30,7 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 
 Here is the video for you to go through and learn:
 
-[![day-02](./banner.png)](https://youtu.be/t8QXF85YovE "Video")
+[![day-02](./banner.png)](https://youtu.be/yP4k5fsPMqs "Video")
 
 ## **👩‍💻 🧑‍💻 Assignment Tasks**
 

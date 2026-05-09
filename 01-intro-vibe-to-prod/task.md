@@ -6,9 +6,9 @@ Please complete the following tasks and post them on the tapaScript Discord unde
 
 ## 🛠️ Assignment 01: The Architect's Foundation
 
-Welcome to your first challenge in the Full-Stack Journey! In episode 1, we talked about the difference between "Vibe Coding" a messy prototype and "Engineering" a production-ready application. Before we start building features, you need to prove you can set up a rock-solid foundation.
+Welcome to your first challenge in the Full-Stack Journey! In episode 01, we talked about the difference between "Vibe Coding" a messy prototype and "Engineering" a production-ready application. Before we start building features, you need to prove you can set up a rock-solid foundation.
 
-Complete the following quiz, then submit your work in the dedicated Discord channel(#task-assignments-fsvtp)!
+Complete the following quiz, then submit your work in the dedicated Discord channel(#task-assignments-fsvcpr)!
 
 ### 🧠 Part 1: The Mindset Check (Quiz)
 
@@ -22,7 +22,9 @@ Answer these three questions briefly in your own words.
 
 ## 🚀 How to Submit
 
-Head over to the `##task-assignments-fsvtp` channel on the tapaScript Discord server and use the following template to submit your work:
+Join the tapaScript Discord Server: [https://discord.com/invite/GGekdgvbKD](https://discord.com/invite/GGekdgvbKD)
+
+Head over to the `##task-assignments-fsvcpr` channel on the tapaScript Discord server and use the following template to submit your work:
 
 ```bash
 [Copy & Paste this into Discord]

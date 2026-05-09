@@ -6,7 +6,7 @@
 - What's Vibe Coding?
 - What's Full Stack Engineering?
 - What's Production Ready?.
-- Quick roadmap of what’s coming in this series.
+- A roadmap of what’s coming in this series.
 - Task and How to Submit
 
 ## 🫶 Support
@@ -26,7 +26,7 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 
 Here is the video for you to go through and learn:
 
-[![day-01](./banner.png)](https://youtu.be/t8QXF85YovE "Video")
+[![day-01](./banner.png)](https://youtu.be/sR_LMW15-bM "Video")
 
 ## **👩‍💻 🧑‍💻 Assignment Tasks**
 
