@@ -43,3 +43,4 @@ You, all my `Stargazers`, are making it work. This is because of you. A BIG THAN
 - **`02: Front-End Project Setup`** - [Watch Video](https://youtu.be/yP4k5fsPMqs) || [Source Code](https://github.com/tapascript/full-stack-vibe-to-prod/blob/main/02-front-end-project-setup/README.md)
 - **`03: React Component Architecture & JSX`** - [Watch Video](https://www.youtube.com/watch?v=O4ipA69JY6w) || [Source Code](https://github.com/tapascript/full-stack-vibe-to-prod/blob/main/03-react-components-architecture/README.md)
 - **`04: MASTER React STATE to Use It Like a PRO`** - [Watch Video](https://youtu.be/D7Ww4tFD1GE) || [Source Code](https://github.com/tapascript/full-stack-vibe-to-prod/blob/main/04-state/README.md)
+- **`05: MASTER React's SIDE EFFECTS(useEffect) and it's Pitfalls`** - [Watch Video](https://youtu.be/p6xX2oFJpAM) || [Source Code](https://github.com/tapascript/full-stack-vibe-to-prod/blob/main/05-side-effects/README.md)
