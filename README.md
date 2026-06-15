@@ -1,8 +1,8 @@
-# full-stack-vibe-to-prod
+# Full-Stack With React, Node.js, SQL, NO-SQL, and Tanstack
 
 This repository contains the source code for the YouTube Playlist: Vibe Coding to Production Ready.
 
-Learn Full-Stack Engineering on [tapaScript](https://youtube.com/tapasadhikary). It is to take you from the Beginner to an Expert Full Stack developer with all fundamentals and projects.
+Learn Full-Stack Engineering on [tapaScript](https://youtube.com/tapasadhikary). It is to take you from a beginner to an expert full-stack developer with all fundamentals and projects.
 
 ## 🫶 Support
 
