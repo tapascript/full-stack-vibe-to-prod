@@ -1,16 +1,19 @@
-# 07  - Refactoring AI Monolith(Structure for Scale)
+# 08  - Streaming
 
 ## **🎯 Goal of This Lesson**
 
-- Introduction: The problem with AI-generated React code
-- Building the Code Refactoring Strategy
-- Code Optimizations: Breaking the AI Monolith
-- Compare: Components vs Features
-- Why Keys are Important in List Iteration?
-- How to Define Types for States?
-- Implementing Custom Hooks for Data Fetching
-- Code Cleanup: Refactoring Routes
-- Alternate Data Fetching Mechanisms
+- Traditional SSR Visually
+- Uncanny Valley of Hydration
+- What is Streaming?
+- Selective Hydration
+- Streaming SSR Visually
+- How Streaming Works Under the Hood?
+- Streaming APIs
+- Streaming in Next.js
+- Streaming in Tanstack Start
+- Error Handling With Streaming
+- How Streaming Improves Core Web Vitals?
+- What’s Next?
 
 ## 🫶 Support
 
@@ -29,8 +32,4 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 
 Here is the video for you to go through and learn:
 
-[![day-07](./banner.png)](https://youtu.be/9t1S-M5hmGM "Video")
-
-## **👩‍💻 🧑‍💻 Assignment Tasks**
-
-Check out the [Task File](./task.md)
+[![day-08](./banner.jpg)](https://www.youtube.com/watch?v=zQoqgClU278 "Video")
