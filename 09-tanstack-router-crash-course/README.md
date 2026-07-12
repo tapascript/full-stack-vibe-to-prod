@@ -2,31 +2,31 @@
 
 ## **🎯 Goal of This Lesson**
 
-- Master TanStack Router: Project Overview 
-- Course Agenda & Key Learning Outcomes 
-- Why You Need a Modern Router in 2026 
-- TanStack Router 
-- Setup, Installation & Initial Configuration 
-- Understanding the Route Tree Architecture 
-- How to Configure the Root Route 
-- Implementing Layouts with the Outlet  
-- Building Static Layout Components 
-- Defining Static Routes & Navigation 
-- Declarative Navigation with the Link Tag 
-- Programmatic Routing with useNavigate() Hook 
-- Optimizing Performance with Lazy Routes 
-- Nested Layouts & Dynamic Routing Patterns 
-- API Integration: Setting up a JSON-Server 
-- Efficient Data Loading & Handling 
-- Managing Loading & Error States Professionally 
-- Pre-fetching & Data Loading for Lazy Routes 
-- Advanced Filtering with SearchParams & State 
-- Managing Global App State with Router Context 
-- Security: How to Build a Private Route 
-- Best Practices: When NOT to use Router Context 
-- Introduction to Mutation & Caching 
-- Using the TanStack Router Debugger Tools 
-- React Router vs. Next.js vs. TanStack Router 
+- Master TanStack Router: Project Overview
+- Course Agenda & Key Learning Outcomes
+- Why You Need a Modern Router in 2026
+- TanStack Router
+- Setup, Installation & Initial Configuration
+- Understanding the Route Tree Architecture
+- How to Configure the Root Rout
+- Implementing Layouts with the Outlet
+- Building Static Layout Components
+- Defining Static Routes & Navigation
+- Declarative Navigation with the Link Tag
+- Programmatic Routing with useNavigate() Hook
+- Optimizing Performance with Lazy Routes
+- Nested Layouts & Dynamic Routing Patterns
+- API Integration: Setting up a JSON-Server
+- Efficient Data Loading & Handling
+- Managing Loading & Error States Professionally
+- Pre-fetching & Data Loading for Lazy Routes
+- Advanced Filtering with SearchParams & State
+- Managing Global App State with Router Context
+- Security: How to Build a Private Route
+- Best Practices: When NOT to use Router Context
+- Introduction to Mutation & Caching
+- Using the TanStack Router Debugger Tools
+- React Router vs. Next.js vs. TanStack Router
 - Next Steps: Continuing Your Learning Journey
 
 ## 🫶 Support
@@ -44,6 +44,6 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 
 ## Video
 
-Here is the video for you to go through and learn: 
+Here is the video for you to go through and learn:
 
 [![Tanstack](https://github.com/tapascript/tanstack-router-crash-course/raw/main/banner.jpg)](https://github.com/tapascript/tanstack-router-crash-course "Video")
