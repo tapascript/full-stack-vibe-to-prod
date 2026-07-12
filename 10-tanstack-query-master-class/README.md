@@ -1,4 +1,4 @@
-# 09  - TanStack Router Crash Course
+# 10  - TanStack Query Master Class
 
 ## **🎯 Goal of This Lesson**
 
