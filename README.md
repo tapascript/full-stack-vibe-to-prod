@@ -48,4 +48,4 @@ You, all my `Stargazers`, are making it work. This is because of you. A BIG THAN
 - **`07: AI Code is Messy: Refactoring a React Dashboard to Production Standards`** - [Watch Video](https://youtu.be/9t1S-M5hmGM) || [Source Code](https://github.com/tapascript/full-stack-vibe-to-prod/blob/main/07-structure-for-scale/README.md)
 - **`08: MASTER React Streaming Visually`** - [Watch Video](https://www.youtube.com/watch?v=zQoqgClU278) || [Source Code](https://github.com/tapascript/full-stack-vibe-to-prod/blob/main/08-streaming/README.md)
 - **`09: TanStack Router Crash Course`** - [Watch Video](https://www.youtube.com/watch?v=zQoqgClU278) || [Source Code](https://github.com/tapascript/full-stack-vibe-to-prod/blob/main/09-tanstack-router-crash-course/README.md)
-- **`10: TanStack Query Master Course`** - [Watch Video](https://www.youtube.com/watch?v=Hu1dtgK_CkU) || [Source Code](https://github.com/tapascript/tanstack-query-crash-course/README.md)
+- **`10: TanStack Query Master Course`** - [Watch Video](https://www.youtube.com/watch?v=Hu1dtgK_CkU) || [Source Code](https://github.com/tapascript/full-stack-vibe-to-prod/blob/main/10-tanstack-query-master-class/README.md)
