@@ -1,7 +1,8 @@
 import { useForm } from "@tanstack/react-form";
 import { zodValidator } from "@tanstack/zod-form-adapter";
 import { z } from "zod";
-
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 export function SpeakerForm() {
     console.log("Rendering Parent Form Component");
     // We initialize our form instance and define its strict default shape
@@ -44,13 +45,13 @@ export function SpeakerForm() {
                         console.log("Rendering First Name Field");
                         return (
                             <div className="flex flex-col gap-2">
-                                <label
+                                <Label
                                     htmlFor={field.name}
                                     className="text-sm font-medium text-neutral-300"
                                 >
                                     First Name
-                                </label>
-                                <input
+                                </Label>
+                                <Input
                                     id={field.name}
                                     name={field.name}
                                     value={field.state.value}
