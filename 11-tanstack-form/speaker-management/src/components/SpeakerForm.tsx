@@ -1,4 +1,6 @@
 import { useForm } from "@tanstack/react-form";
+import { zodValidator } from "@tanstack/zod-form-adapter";
+import { z } from "zod";
 
 export function SpeakerForm() {
     console.log("Rendering Parent Form Component");
@@ -9,6 +11,7 @@ export function SpeakerForm() {
             lastName: "",
             twitterHandle: "",
         },
+        validatorAdapter: zodValidator(), // Injecting the Zod engine
         onSubmit: async ({ value }) => {
             console.log("Form Submitted!", value);
         },
@@ -28,11 +31,17 @@ export function SpeakerForm() {
                 className="space-y-4"
             >
                 {/* The Field Component */}
-                <form.Field name="firstName">
+                <form.Field
+                    name="firstName"
+                    validators={{
+                        onChange: z
+                            .string()
+                            .min(2, "First name must be at least 2 characters"),
+                    }}
+                >
                     {(field) => {
                         // PROOF: This log will only fire when firstName changes!
                         console.log("Rendering First Name Field");
-
                         return (
                             <div className="flex flex-col gap-2">
                                 <label
@@ -51,6 +60,14 @@ export function SpeakerForm() {
                                     }
                                     className="p-2 rounded-md bg-neutral-950 border border-neutral-700 text-white focus:border-emerald-500 focus:outline-none"
                                 />
+                                {field.state.meta.isTouched &&
+                                field.state.meta.errors.length ? (
+                                    <em className="text-red-500 text-xs">
+                                        {field.state.meta.errors.map((error) =>
+                                            error.message
+                                        )}
+                                    </em>
+                                ) : null}
                             </div>
                         );
                     }}
