@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tanstack/react-form": "^1.33.2",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "react-error-boundary": "^4.0.13"
