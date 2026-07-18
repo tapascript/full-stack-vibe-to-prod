@@ -1,20 +1,17 @@
-import { useForm } from "@tanstack/react-form";
-import { zodValidator } from "@tanstack/zod-form-adapter";
-import { z } from "zod";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { Button } from "@/components/ui/button";
+import { useForm } from "@tanstack/react-form";
+import { zodValidator } from "@tanstack/zod-form-adapter";
 export function SpeakerForm() {
     console.log("Rendering Parent Form Component");
-    // We initialize our form instance and define its strict default shape
     const form = useForm({
         defaultValues: {
-            firstName: "",
-            lastName: "",
-            twitterHandle: "",
+            speakers: [{ firstName: "", lastName: "" }],
         },
         validatorAdapter: zodValidator(), // Injecting the Zod engine
         onSubmit: async ({ value }) => {
-            console.log("Form Submitted!", value);
+            console.log("Form Submitted!", value.speakers);
         },
     });
 
@@ -32,46 +29,94 @@ export function SpeakerForm() {
                 className="space-y-4"
             >
                 {/* The Field Component */}
-                <form.Field
-                    name="firstName"
-                    validators={{
-                        onChange: z
-                            .string()
-                            .min(2, "First name must be at least 2 characters"),
-                    }}
-                >
-                    {(field) => {
-                        // PROOF: This log will only fire when firstName changes!
-                        console.log("Rendering First Name Field");
-                        return (
-                            <div className="flex flex-col gap-2">
-                                <Label
-                                    htmlFor={field.name}
-                                    className="text-sm font-medium text-neutral-300"
+                <form.Field name="speakers" mode="array">
+                    {(field) => (
+                        <div className="space-y-6 text-white">
+                            {field.state.value.map((_, index) => (
+                                <div
+                                    key={index}
+                                    className="p-4 border border-neutral-800 rounded-lg bg-neutral-950 relative"
                                 >
-                                    First Name
-                                </Label>
-                                <Input
-                                    id={field.name}
-                                    name={field.name}
-                                    value={field.state.value}
-                                    onBlur={field.handleBlur}
-                                    onChange={(e) =>
-                                        field.handleChange(e.target.value)
-                                    }
-                                    className="p-2 rounded-md bg-neutral-950 border border-neutral-700 text-white focus:border-emerald-500 focus:outline-none"
-                                />
-                                {field.state.meta.isTouched &&
-                                field.state.meta.errors.length ? (
-                                    <em className="text-red-500 text-xs">
-                                        {field.state.meta.errors.map((error) =>
-                                            error.message
-                                        )}
-                                    </em>
-                                ) : null}
-                            </div>
-                        );
-                    }}
+                                    <h3 className="text-sm font-bold text-neutral-400 mb-4 uppercase">
+                                        Speaker {index + 1}
+                                    </h3>
+
+                                    <div className="grid grid-cols-2 gap-4">
+                                        {/* Nested Field Configuration */}
+                                        <form.Field
+                                            name={`speakers[${index}].firstName`}
+                                        >
+                                            {(subField) => (
+                                                <div>
+                                                    <Label className="mb-2">First Name</Label>
+                                                    <Input
+                                                        value={
+                                                            subField.state.value
+                                                        }
+                                                        onChange={(e) =>
+                                                            subField.handleChange(
+                                                                e.target.value,
+                                                            )
+                                                        }
+                                                    />
+                                                </div>
+                                            )}
+                                        </form.Field>
+
+                                        <form.Field
+                                            name={`speakers[${index}].lastName`}
+                                        >
+                                            {(subField) => (
+                                                <div>
+                                                    <Label className="mb-2">Last Name</Label>
+                                                    <Input
+                                                        value={
+                                                            subField.state.value
+                                                        }
+                                                        onChange={(e) =>
+                                                            subField.handleChange(
+                                                                e.target.value,
+                                                            )
+                                                        }
+                                                    />
+                                                </div>
+                                            )}
+                                        </form.Field>
+                                    </div>
+
+                                    {/* Dynamic Removal Utility */}
+                                    {field.state.value.length > 1 && (
+                                        <Button
+                                            type="button"
+                                            variant="destructive"
+                                            size="sm"
+                                            className="absolute top-2 right-2"
+                                            onClick={() =>
+                                                field.removeValue(index)
+                                            }
+                                        >
+                                            Remove
+                                        </Button>
+                                    )}
+                                </div>
+                            ))}
+
+                            {/* Dynamic Insertion Utility */}
+                            <Button
+                                type="button"
+                                variant="outline"
+                                className="w-full border-dashed border-neutral-700 text-neutral-900"
+                                onClick={() =>
+                                    field.pushValue({
+                                        firstName: "",
+                                        lastName: "",
+                                    })
+                                }
+                            >
+                                + Add Another Speaker
+                            </Button>
+                        </div>
+                    )}
                 </form.Field>
 
                 <button
