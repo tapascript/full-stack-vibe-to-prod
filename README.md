@@ -49,3 +49,4 @@ You, all my `Stargazers`, are making it work. This is because of you. A BIG THAN
 - **`08: MASTER React Streaming Visually`** - [Watch Video](https://www.youtube.com/watch?v=zQoqgClU278) || [Source Code](https://github.com/tapascript/full-stack-vibe-to-prod/blob/main/08-streaming/README.md)
 - **`09: TanStack Router Crash Course`** - [Watch Video](https://www.youtube.com/watch?v=zQoqgClU278) || [Source Code](https://github.com/tapascript/full-stack-vibe-to-prod/blob/main/09-tanstack-router-crash-course/README.md)
 - **`10: TanStack Query Master Course`** - [Watch Video](https://www.youtube.com/watch?v=Hu1dtgK_CkU) || [Source Code](https://github.com/tapascript/full-stack-vibe-to-prod/blob/main/10-tanstack-query-master-class/README.md)
+- **`11: TanStack Form Master Class`** - [Watch Video](https://youtu.be/qSR6UeSKnT0) || [Source Code](https://github.com/tapascript/full-stack-vibe-to-prod/blob/main/11-tanstack-form/README.md)
